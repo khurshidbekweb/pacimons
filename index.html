@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pacimons</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">    
+        <div class="container">
+            <div class="headerInner">
+                <form class="mainForm py-4 d-flex align-items-center justify-content-around w-50 text-center">
+                    <select class="age p-2 rounded-3 border-0"> 
+                        <option>Sort</option>
+                    </select>                
+                    <label>
+                        <input class="p-2 rounded-3 border-0" type="search" placeholder="Search">
+                    </label>      
+                    <select class="age p-2 rounded-3 border-0"> 
+                        <option>Sort</option>
+                    </select>
+                </form>    
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="intero mb-5">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="cart bg-white rounded-3 w-25 p-2">
+                        <div class="img text-center position-relative">
+                            <img class="w-75" src="http://www.serebii.net/pokemongo/pokemon/001.png" alt="img">
+                            <img class="position-absolute" src="./images/heart.svg" alt="like">
+                        </div>
+                        <hr>
+                        <div class="info">
+                            <h2 class="name">Bulbasaur</h2>
+                            <h5><strong>001</strong></h5>
+                            <div class="d-flex mb-1 align-items-center justify-content-between">
+                                <h4><strong>Age</strong></h4>
+                                <h4><strong>23</strong></h4>
+                            </div>
+                            <div class="d-flex mb-2 align-items-center justify-content-between">
+                                <h4>0.99 m</h4>
+                                <h4>23.5 kg</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/utlis.js"></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
