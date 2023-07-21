@@ -18,8 +18,16 @@ body{
     padding: 145px;
     background-size: 1150px;
 }
+.card{
+    width: 300px;
+}
 .mainForm{
     margin: 180px auto 0;
     background-color: #2e272763;
     border-radius: 10px;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
