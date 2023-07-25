@@ -11,16 +11,21 @@
     <header class="header">    
         <div class="container">
             <div class="headerInner">
-                <form class="mainForm py-4 d-flex align-items-center justify-content-around w-50 text-center">
-                    <select class="age p-2 rounded-3 border-0"> 
-                        <option>Sort</option>
-                    </select>                
+                <form class="mainForm py-4 d-flex align-items-center justify-content-around w-75 text-center">
+                    <select class="candys p-2 rounded-3 border-0"> 
+                        <option hidden>Candy</option>
+                        <option value="all">All</option>
+                    </select> 
                     <label>
-                        <input class="p-2 rounded-3 border-0" type="search" placeholder="Search">
-                    </label>      
-                    <select class="age p-2 rounded-3 border-0"> 
-                        <option>Sort</option>
-                    </select>
+                        <input class="p-2 search rounded-3 border-0" type="search" placeholder="Search">
+                    </label> 
+                    <select class="sort p-2 px-3 rounded-3 border-0"> 
+                        <option hidden>Sort</option>
+                        <option value="a-z">A-Z</option>
+                        <option value="z-a">Z-A</option>
+                        <option value="grow">Grow</option>
+                        <option value="dawn">Down</option>
+                    </select>                     
                 </form>    
             </div>
         </div>
